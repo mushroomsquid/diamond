@@ -52,22 +52,8 @@
    float: left;
    border: 4px solid lightblue;
   }
- </style>
-     <script>
-  function add() {
-   var n = document.createElement("div");
-   n.innerHTML = document.getElementById("box").value;
-   n.onclick = remove;
-   document.getElementById("list").appendChild(n);
-  }
 
-  function remove() {
-   document.getElementById("list").removeChild(this);
-  }  
- </script>
-
- <style>
-     .headers {
+.headers {
     height:65px; 
     width: 450px; 
     background-color:lightblue; 
@@ -110,6 +96,7 @@
    background-color: pink;
   }
  </style>
+    
 </head>
 
 <body>
@@ -145,9 +132,14 @@
   Color: Green<br/>
   Value: Over $10 million
  </div>
+   
+    
+    
     <div style="clear:both;">
     </div>
-                    <hr>
+    <hr>
+
+    
  <div class="headers">
   <img src="image/VolkovLogo.jpg" style="float: left; height:70px;"> 
   <p>To-Do List App (Add & Remove Item)</p>
